@@ -6,6 +6,7 @@ import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 //Hi das Sabine wie gehts?
+//danke gut und dir?
 export default function Home() {
   return (
     <div className=" bg-white w-screen h-screen ">
