@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function flat() {
-  return (
-    <div>Falat White</div>
-  )
+  return <div>Falat White</div>;
 }
 
-export default flat
+export default flat;

@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function cappucino() {
-  return (
-    <div>Die Herstellung des Cappucinos</div>
-  )
+  return <div>Die Herstellung des Cappucinos</div>;
 }
 
-export default cappucino
+export default cappucino;
