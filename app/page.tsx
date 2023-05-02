@@ -20,7 +20,7 @@ const montserrat = Montserrat({ subsets: ["latin"] });
 // p-5 ist der Abstand von dem Bild zum Rand
 export default function Home() {
   return (
-    <div className="w-screen h-screen bg-bg_creme ">
+    <div className="w-screen h-screen bg-bg_creme">
       <Navbar />
       <div className="w-screen h-full text-black">
         <div className="">
@@ -74,7 +74,7 @@ export default function Home() {
             <div className="">
               <div className="text-7xl p-10">
                 <div className={montserrat.className}>
-                  The first you need <br /> Have a cup of coffee
+                  The first you need <br /> Is a cup of coffee
                 </div>
               </div>
               <div>

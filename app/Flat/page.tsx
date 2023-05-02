@@ -1,7 +1,15 @@
 import React from "react";
+import Navbar from "../componends/navbar";
 
 function flat() {
-  return <div>Falat White</div>;
+  return (
+    <>
+    <div className="h-screen">
+      <Navbar/>
+      <div>Flat Late</div>
+    </div>
+    </>
+    )
 }
 
 export default flat;
