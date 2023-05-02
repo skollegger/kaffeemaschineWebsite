@@ -14,7 +14,7 @@ function Navbar() {
       <div className=" flex flex-row bg-bg_back text-black justify-between">
         <div className="flex justify-center items-center p-5 text-2xl ">
           <div className="flex text-4xl ">
-            <BiCoffee />
+            <Link href={"/"}><BiCoffee /></Link>
           </div>
         </div>
         <div className="flex flex-row justify-center p-4 items-center text-black text-2xl">

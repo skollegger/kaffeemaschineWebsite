@@ -9,10 +9,10 @@ function flat() {
       <Navbar/>
       <h1 className="text-center text-black text-4xl">Flat Late</h1>
       <Image
-        src={"/Latte/latte_brot.jpg"}
-        alt={""}
-        height={300}
-        width={400}
+      src={"/Latte/latte_brot.jpg"}
+      alt={""}
+      height={300}
+      width={400}
       />
     </div>
     </>

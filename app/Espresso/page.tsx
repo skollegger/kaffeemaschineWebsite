@@ -7,9 +7,9 @@ function espresso() {
     <>    
     <div className="h-screen bg-bg_back">
       <Navbar/>
-      <h1 className="text-center text-4xl text-black">Die Espresso Herstellung</h1>
+      <h1 className="text-center text-4xl text-black">Espresso</h1>
       <Image
-        src={"/Espresso/esspresso1.jpeg"}
+        src={"/Espresso/zubereitung.jpeg"}
         alt={""}
         height={300}
         width={400}

@@ -7,7 +7,7 @@ function cappucino() {
   <>
     <div className="h-screen bg-bg_back">
       <Navbar/>
-      <h1 className="text-center text-4xl text-black">Die Herstellung des Cappucinos</h1>;
+      <h1 className="text-center text-4xl text-black">Cappucino</h1>;
       <Image
         src={"/Cappucino/cappuccino.jpg"}
         alt={""}
