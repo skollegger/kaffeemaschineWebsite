@@ -20,7 +20,7 @@ const montserrat = Montserrat({ subsets: ["latin"] });
 // p-5 ist der Abstand von dem Bild zum Rand
 export default function Home() {
   return (
-    <div className="w-screen h-screen bg-bg_creme">
+    <div className="w-screen h-screen bg-bg_back">
       <Navbar />
       <div className="w-screen h-full text-black">
         <div className="">
