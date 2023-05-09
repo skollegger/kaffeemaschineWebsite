@@ -21,8 +21,8 @@ function latte() {
           <Image
             src={"/Latte/explosion.png"}
             alt={""}
-            height={300}
-            width={400}
+            height={320}
+            width={420}
           />
         </div>
         <div className='flex justify-center items-center p-5'>
