@@ -5,7 +5,7 @@ import Navbar from "../componends/navbar";
 function cappuccino() {
   return (
   <>
-    <div className="h-screen bg-bg_back">
+    <div className="h-full bg-bg_back">
       <Navbar/>
       <h1 className="text-center text-4xl text-black">Cappuccino</h1>
       <Image
@@ -15,9 +15,9 @@ function cappuccino() {
         height={300}
         width={400}
       />
-      <div className="flex flex-row justify-center m-5">
-        <div className="flex justify-center items-center">
-          <h1 className="text-center text-2xl text-black">Espresso vs. Cappuccino</h1>
+      <div className='flex p-5 flex-row justify-center'>
+        <div className='flex justify-center items-center flex-col'>
+          <h1 className="text-center text-2xl text-black m-5">Espresso vs. Cappuccino</h1>
           <Image
             src={"/Cappucino/description2.jpg"}
             alt={""}
@@ -25,8 +25,8 @@ function cappuccino() {
             width={400}
           />
         </div>
-        <div className="flex justify-center items-center">
-          <h1 className="text-center text-2xl text-black">Ingredients and Layers</h1>
+        <div className='flex justify-center items-center p-5 flex-col'>
+          <h1 className="text-center text-2xl text-black m-5">Ingredients and Layers</h1>
           <Image
             src={"/Cappucino/description.jpg"}
             alt={""}

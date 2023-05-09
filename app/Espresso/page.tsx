@@ -5,7 +5,7 @@ import Navbar from "../componends/navbar";
 function espresso() {
   return (
     <>    
-    <div className="h-screen bg-bg_back">
+    <div className="h-full bg-bg_back">
       <Navbar/>
       <h1 className="text-center text-4xl text-black">Espresso</h1>
       <Image
