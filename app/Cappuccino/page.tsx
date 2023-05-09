@@ -15,9 +15,9 @@ function cappuccino() {
         height={300}
         width={400}
       />
-      <div className="flex flex-row justify-center">
+      <div className="flex flex-row justify-center m-5">
         <div className="flex justify-center items-center">
-          <h1 className="text-center text-4xl text-black">Espresso vs. Cappuccino</h1>
+          <h1 className="text-center text-2xl text-black">Espresso vs. Cappuccino</h1>
           <Image
             src={"/Cappucino/description2.jpg"}
             alt={""}
@@ -26,12 +26,12 @@ function cappuccino() {
           />
         </div>
         <div className="flex justify-center items-center">
-          <h1 className="text-center text-4xl text-black">Ingredients and Layers</h1>
+          <h1 className="text-center text-2xl text-black">Ingredients and Layers</h1>
           <Image
-            src={"/Cappucino/description3.jpg"}
+            src={"/Cappucino/description.jpg"}
             alt={""}
-            height={300}
-            width={400}
+            height={200}
+            width={300}
           />
         </div>
       </div>
