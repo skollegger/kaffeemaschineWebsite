@@ -32,12 +32,6 @@ function Navbar() {
               <div className="p-4">
                 <Link href={"/Flat"}>Flat White</Link>
               </div>
-              <div className="p-4">
-                <Link href={"/Contact"}>Contact us</Link>
-              </div>
-              <div className="p-4">
-                <Link href={"/Company"}>Company</Link>
-              </div>
             </div>
           </div>
         </div>

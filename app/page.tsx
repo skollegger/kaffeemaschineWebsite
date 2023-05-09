@@ -47,12 +47,6 @@ export default function Home() {
                 </div>
               </div>
               <div>
-                <div className="p-5 text-2xl">
-                  <div className={montserrat.className}>
-                    Mehr über unsere Kaffeemaschine lernen Sie{" "}
-                  </div>
-                  <Link href={"https://www.google.de/?hl=de"}>hier</Link>:
-                </div>
               </div>
             </div>
           </div>
