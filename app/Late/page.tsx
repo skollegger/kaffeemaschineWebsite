@@ -18,13 +18,14 @@ function latte() {
         />
       </div>
       <h3 className='text-black text-center text-2xl'>Ingredients and Layers</h3>
-      <Image
-        className='flex justify-center items-center'
-        src={"/Latte/beschreibung.jpg"}
-        alt={""}
-        height={300}
-        width={400}
-      />
+      <div className='flex justify-center items-center'>
+        <Image
+          src={"/Latte/beschreibung.jpg"}
+          alt={""}
+          height={400}
+          width={500}
+        />
+      </div>
     </div>
     </>
   )
