@@ -10,17 +10,17 @@ function latte() {
       <h1 className='text-black text-4xl text-center'>Latte Macchiato</h1>
       <div className="flex items-center">
         <Image
+          className='flex justify-center items-center'
           src={"/Latte/explosion.png"}
           alt={""}
           height={300}
-          className='flex justify-center items-center'
           width={400}
         />
       </div>
-      <h3 className='text-black text-center text-2xl'>Zutaten und Schichten</h3>
+      <h3 className='text-black text-center text-2xl'>Ingredients and Layers</h3>
       <Image
-        src={"/Latte/beschreibung.jpg"}
         className='flex justify-center items-center'
+        src={"/Latte/beschreibung.jpg"}
         alt={""}
         height={300}
         width={400}
@@ -29,5 +29,4 @@ function latte() {
     </>
   )
 }
-
 export default latte

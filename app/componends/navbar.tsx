@@ -27,7 +27,7 @@ function Navbar() {
                 <Link href={"/Late"}>Latte Macchiato</Link>
               </div>
               <div className="p-4">
-                <Link href={"/Cappucino"}>Cappucino</Link>
+                <Link href={"/Cappuccino"}>Cappuccino</Link>
               </div>
               <div className="p-4">
                 <Link href={"/Flat"}>Flat White</Link>
