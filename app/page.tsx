@@ -9,10 +9,6 @@ const inter = Inter({ subsets: ["latin"] });
 import { Montserrat } from "next/font/google";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
-//Hi das Sabine wie gehts?
-//danke gut und dir?
-// Gut danke :) Habe ein wenig Nachgeholden...
-
 // Hier ist ein bisschen Erklärung zum Code
 
 // Ein grid ist auch recht einfach grid dann grid-cols-2 und dann grid-rows-2 ist ein grid mit 2 spalten und 2 reihen
