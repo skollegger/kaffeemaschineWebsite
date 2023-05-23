@@ -2,11 +2,9 @@ import React from "react";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import Navbar from "./componends/navbar";
-import Link from "next/link";
 import { CiCoffeeBean } from "react-icons/ci";
 import { BsFillCupHotFill } from "react-icons/bs";
 import { BsCup } from "react-icons/bs";
-import { AiOutlineArrowRight } from "react-icons/ai";
 const inter = Inter({ subsets: ["latin"] });
 import { Montserrat } from "next/font/google";
 
@@ -39,7 +37,6 @@ export default function Home() {
                 />
               </div>
             </div>
-
             <div className="">
               <div className="text-7xl p-10">
                 <div className={montserrat.className}>
