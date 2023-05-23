@@ -57,7 +57,6 @@ export default function Home() {
                 Test our new coffee beans. Fresh and tasty with a nice aroma and
                 a great taste.
               </div>
-              <AiOutlineArrowRight className="text-4xl" />
             </div>
             <div className="flex flex-col p-10 ">
               <BsFillCupHotFill className="text-6xl m-4 ml-0" />
@@ -65,7 +64,6 @@ export default function Home() {
                 Out nice and tasty coffee. Freshly brewed and with a great taste
                 and in different variations brightens up your day.
               </div>
-              <AiOutlineArrowRight className="text-4xl" />
             </div>
             <div className="flex flex-col p-10 ">
               <BsCup className="text-6xl m-4 ml-0 " />
@@ -73,7 +71,6 @@ export default function Home() {
                 Test our new coffee beans. Fresh and tasty with a nice aroma and
                 a great taste.
               </div>
-              <AiOutlineArrowRight className="text-4xl" />
             </div>
           </div>
         </div>
