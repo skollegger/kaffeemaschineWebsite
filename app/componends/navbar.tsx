@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { Montserrat } from "next/font/google";
+import {MdCoffeeMaker} from "react-icons/md";
 
 import { BiCoffee } from "react-icons/bi";
 
@@ -35,11 +36,7 @@ function Navbar() {
             </div>
           </div>
         </div>
-        <div className="flex justify-center items-center p-5 text-2xl ">
-          <div className="flex mr-10">Login</div>
-          <div className="flex bg-black text-white px-5 py-4 rounded-lg ">
-            Signup{" "}
-          </div>
+        <div className="flex justify-center items-center text-4xl m-4">
         </div>
       </div>
     </>

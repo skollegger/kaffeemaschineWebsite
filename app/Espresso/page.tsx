@@ -54,7 +54,7 @@ function espresso() {
         </div>
         <div className='flex justify-center items-center flex-col'>
           <Image
-            src={"/Espresso/espresso.jpg"}
+            src={"/Espresso/seite_kaffe.jpg"}
             alt={""}
             height={200}
             width={300}
