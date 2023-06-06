@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import getData from "./getData";
+import Link from "next/link";
 
 interface Props {
   text: string;
@@ -54,12 +55,14 @@ function Coffee(props: Props) {
           </div>
           <div className="flex flex-row">
             <div className="flex flex-col justify-between">
-              <button
-                onClick={() => getData(coffee, menge)}
-                className="flex justify-center border p-4 mr-1  rounded-md items-center bg-red-400"
-              >
-                Order
-              </button>
+              <Link href={"/Gratulation"}>
+                <button
+                  onClick={() => getData(coffee, menge)}
+                  className="flex justify-center border p-4 mr-1  rounded-md items-center bg-red-400"
+                >
+                  Order
+                </button>
+              </Link>
               <div className="flex justify-center border p-4 mr-1 rounded-md items-center bg-red-400">
                 {menge}
               </div>

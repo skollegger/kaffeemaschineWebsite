@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Coffee from "./Coffee";
+import Navbar from "../componends/navbar";
 
 function Page() {
   return (
     <>
+    <Navbar></Navbar>
       <div className="w-screen bg-bg_back">
         <div className="grid grid-col-2">
           <Coffee
