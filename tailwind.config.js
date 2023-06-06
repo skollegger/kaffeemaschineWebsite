@@ -13,6 +13,10 @@ module.exports = {
         bright_b: "#3F4E4F",
         dark_b: "2C3639",
       },
+      width: {
+        128: "32rem",
+        144: "36rem",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

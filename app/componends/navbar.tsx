@@ -14,7 +14,9 @@ function Navbar() {
       <div className=" flex flex-row bg-bg_back text-black justify-between">
         <div className="flex justify-center items-center p-5 text-2xl ">
           <div className="flex text-4xl ">
-            <Link href={"/"}><BiCoffee /></Link>
+            <Link href={"/"}>
+              <BiCoffee />
+            </Link>
           </div>
         </div>
         <div className="flex flex-row justify-center p-4 items-center text-black text-2xl">
@@ -33,10 +35,7 @@ function Navbar() {
                 <Link href={"/Flat"}>Flat White</Link>
               </div>
               <div className="p-4">
-                <Link href={"/Contact"}>Contact us</Link>
-              </div>
-              <div className="p-4">
-                <Link href={"/Company"}>Company</Link>
+                <Link href={"/Order"}>Order</Link>
               </div>
             </div>
           </div>
@@ -52,4 +51,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Navbar;
