@@ -2,16 +2,16 @@ import React from "react";
 import Image from "next/image";
 import Navbar from "../componends/navbar";
 
-function espresso() {
+function cappuccino() {
   return (
-    <>    
+  <>
     <div className="h-full bg-bg_back">
       <Navbar/>
-      <h1 className="text-center text-4xl text-black">Espresso</h1>
+      <h1 className="text-center text-4xl text-black">Cappuccino</h1>
       <div className="flex flex-row justify-center items-center">
       <div className='flex justify-center items-center p-5'>
           <Image
-            src={"/Espresso/espresso2.jpeg"}
+            src={"/Cappucino/cappuccino2.jpg"}
             alt={""}
             height={320}
             width={420}
@@ -19,51 +19,44 @@ function espresso() {
         </div>
         <div className='flex justify-center items-center p-5'>
           <Image
-          src={"/Espresso/zubereitung.jpeg"}
-          alt={""}
-          height={300}
-          width={400}
-        />
+            className='flex justify-center items-center'
+            src={"/Cappucino/cappuccino.jpg"}
+            alt={""}
+            height={280}
+            width={380}
+          />
         </div>
         <div className='flex justify-center items-center p-5'>
           <Image
-            src={"/Espresso/espresso_macchiato.jpg"}
+            src={"/Cappucino/farben.jpg"}
             alt={""}
-            height={300}
-            width={400}
+            height={180}
+            width={280}
           />
         </div>
       </div>
       <div className='flex p-5 flex-row justify-center'>
         <div className='flex justify-center items-center flex-col'>
+          <h1 className="text-center text-3xl text-black m-5">Espresso vs. Cappuccino</h1>
           <Image
-            src={"/Espresso/seite_kaffe.jpg"}
+            src={"/Cappucino/description2.jpg"}
             alt={""}
-            height={200}
-            width={300}
+            height={300}
+            width={400}
           />
         </div>
         <div className='flex justify-center items-center p-5 flex-col'>
-          <h3 className='text-black text-center text-3xl m-5'>Different Types</h3>
+          <h1 className="text-center text-3xl text-black m-5">Ingredients and Layers</h1>
           <Image
-            src={"/Espresso/espresso_typen.jpg"}
+            src={"/Cappucino/description.jpg"}
             alt={""}
-            height={500}
-            width={600}
-          />
-        </div>
-        <div className='flex justify-center items-center flex-col'>
-          <Image
-            src={"/Espresso/seite_kaffe.jpg"}
-            alt={""}
-            height={200}
-            width={300}
+            height={250}
+            width={350}
           />
         </div>
       </div>
     </div>
-    </>
-  );
+  </>
+  )
 }
-
-export default espresso;
+export default cappuccino;

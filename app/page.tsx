@@ -2,19 +2,13 @@ import React from "react";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import Navbar from "./componends/navbar";
-import Link from "next/link";
 import { CiCoffeeBean } from "react-icons/ci";
 import { BsFillCupHotFill } from "react-icons/bs";
 import { BsCup } from "react-icons/bs";
-import { AiOutlineArrowRight } from "react-icons/ai";
 const inter = Inter({ subsets: ["latin"] });
 import { Montserrat } from "next/font/google";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
-//Hi das Sabine wie gehts?
-//danke gut und dir?
-// Gut danke :) Habe ein wenig Nachgeholden...
-
 // Hier ist ein bisschen Erklärung zum Code
 
 // Ein grid ist auch recht einfach grid dann grid-cols-2 und dann grid-rows-2 ist ein grid mit 2 spalten und 2 reihen
@@ -39,7 +33,6 @@ export default function Home() {
                 />
               </div>
             </div>
-
             <div className="">
               <div className="text-7xl p-10">
                 <div className={montserrat.className}>
@@ -47,12 +40,6 @@ export default function Home() {
                 </div>
               </div>
               <div>
-                <div className="p-5 text-2xl">
-                  <div className={montserrat.className}>
-                    Mehr über unsere Kaffeemaschine lernen Sie{" "}
-                  </div>
-                  <Link href={"https://www.google.de/?hl=de"}>hier</Link>:
-                </div>
               </div>
             </div>
           </div>
@@ -63,7 +50,6 @@ export default function Home() {
                 Test our new coffee beans. Fresh and tasty with a nice aroma and
                 a great taste.
               </div>
-              <AiOutlineArrowRight className="text-4xl" />
             </div>
             <div className="flex flex-col p-10 ">
               <BsFillCupHotFill className="text-6xl m-4 ml-0" />
@@ -71,7 +57,6 @@ export default function Home() {
                 Out nice and tasty coffee. Freshly brewed and with a great taste
                 and in different variations brightens up your day.
               </div>
-              <AiOutlineArrowRight className="text-4xl" />
             </div>
             <div className="flex flex-col p-10 ">
               <BsCup className="text-6xl m-4 ml-0 " />
@@ -79,7 +64,6 @@ export default function Home() {
                 Test our new coffee beans. Fresh and tasty with a nice aroma and
                 a great taste.
               </div>
-              <AiOutlineArrowRight className="text-4xl" />
             </div>
           </div>
         </div>
